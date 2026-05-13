@@ -1,0 +1,161 @@
+/* =========================================================
+   10. EDITING MODE THEME
+   ========================================================= */
+
+.theme-dark .markdown-source-view.mod-cm6 {
+  /* Фон всей Note в Editing mode */
+  --edit-note-background: #212121;
+
+  /* Единый цвет основного текста заметки */
+  --edit-note-text: #d7d7d7;
+
+  /* Цвет текста внутри fenced code block */
+  --edit-codeblock-text: #9d9d9d;
+
+  /* Цвет inline code: текст внутри `...` */
+  --edit-inline-code-text: #8886ff;
+
+  /* Цвет тегов и заголовка Note */
+  --edit-tag-text: #e7c011;
+}
+
+/* =========================================================
+   EDITING MODE BACKGROUND
+   ========================================================= */
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-scroller,
+.theme-dark .markdown-source-view.mod-cm6 .cm-contentContainer,
+.theme-dark .markdown-source-view.mod-cm6 .cm-gutters {
+  background-color: var(--edit-note-background) !important;
+}
+
+/* =========================================================
+   NOTE TITLE
+   ========================================================= */
+
+/* Note Title style */   
+.theme-dark .inline-title,
+.theme-dark .inline-title * {
+  color: var(--edit-tag-text) !important;
+  text-align: center !important;
+  font-size: 2.4rem !important;
+}
+
+/* Note Title hiding */   
+.theme-dark .markdown-source-view.mod-cm6 .inline-title {
+  display: none !important;
+}
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-scroller,
+.theme-dark .markdown-source-view.mod-cm6 .cm-contentContainer,
+.theme-dark .markdown-source-view.mod-cm6 .cm-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-line:first-child {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* =========================================================
+   ALL EDITING MODE TEXT
+   ========================================================= */
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-content,
+.theme-dark .markdown-source-view.mod-cm6 .cm-content {
+  color: var(--edit-note-text) !important;
+}
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-content .cm-link,
+.theme-dark .markdown-source-view.mod-cm6 .cm-content .cm-hmd-internal-link,
+.theme-dark .markdown-source-view.mod-cm6 .cm-content .cm-url {
+  color: #D4AF37 !important;
+}
+
+/* =========================================================
+   TAGS
+   ========================================================= */
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-hashtag,
+.theme-dark .markdown-source-view.mod-cm6 .cm-hashtag *,
+.theme-dark .markdown-source-view.mod-cm6 .cm-tag,
+.theme-dark .markdown-source-view.mod-cm6 .cm-tag * {
+  color: var(--edit-tag-text) !important;
+}
+
+/* =========================================================
+   CODE BLOCK TEXT
+   ========================================================= */
+
+/* Строки fenced code block */
+.theme-dark .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
+.theme-dark .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock *,
+.theme-dark .markdown-source-view.mod-cm6 .HyperMD-codeblock,
+.theme-dark .markdown-source-view.mod-cm6 .HyperMD-codeblock *,
+.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-codeblock,
+.theme-dark .markdown-source-view.mod-cm6 .cm-hmd-codeblock *,
+.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-code-block,
+.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-code-block * {
+  color: var(--edit-codeblock-text) !important;
+}
+
+/* =========================================================
+   INLINE CODE TEXT
+   ========================================================= */
+
+.theme-dark .markdown-source-view.mod-cm6 .cm-inline-code,
+.theme-dark .markdown-source-view.mod-cm6 .cm-inline-code *,
+.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-code,
+.theme-dark .markdown-source-view.mod-cm6 .cm-formatting-code * {
+  color: var(--edit-inline-code-text) !important;
+}
+
+/* =========================================================
+   Верхняя панель note
+   ========================================================= */
+.view-header,
+.view-actions,
+.view-action {
+  position: relative;
+  z-index: 5;
+}
+
+/* Кнопки Edit / Reading / Properties по высоте */
+.view-actions {
+  display: flex;
+  align-items: center !important;
+}
+
+.view-actions .clickable-icon {
+  height: 32px !important;
+  width: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.view-actions {
+  margin-top: 2px !important; /* ниже */
+}
+
+/* Верхняя панель note: breadcrumbs + back/forward + actions */
+.view-header {
+  min-height: 46px !important;
+  height: 42px !important;
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Block ID — приглушить и отодвинуть вправо */
+.cm-blockid {
+	opacity: 0.3 !important;
+	font-size: 0.75em !important;
+	margin-left: 20px !important;
+}

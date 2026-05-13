@@ -1,0 +1,129 @@
+/* =========================================================
+   Editing Toolbar
+   ========================================================= */
+
+
+#editingToolbarModalBar button,
+#editingToolbarModalBar .dropdown {
+  background-color: #afaeaa !important;
+  color: #2b1e1e !important;
+  border: 1px solid #5a6472 !important;
+}
+
+#editingToolbarModalBar button:hover,
+#editingToolbarModalBar .dropdown:hover {
+  background-color: #c2c5ca !important;
+}
+
+#editingToolbarModalBar .mod-cta,
+#editingToolbarModalBar button.mod-cta {
+  background-color: #c79c4d !important;
+  color: #f7f9fb !important;
+  border: 1px solid #c79c4d !important;
+}
+
+#editingToolbarModalBar .mod-cta:hover,
+#editingToolbarModalBar button.mod-cta:hover {
+  background-color: #ce9325 !important;
+  border-color: #ce9325 !important;
+}
+
+#editingToolbarModalBar.top {
+  top: 6px !important;
+  width: fit-content !important;
+  max-width: max-content !important;
+  margin: 0 auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  padding: 0 8px !important;
+  left: unset !important;
+  transform: none !important;
+  background-color: #212121 !important;
+  background-image: none !important;
+  position: relative !important;
+  z-index: 3 !important;
+  min-height: 44px !important;
+}
+
+/* Широкая подложка под тулбаром */
+#editingToolbarModalBar.top::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 48px;
+  background: #212121 !important;
+  z-index: -10;
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   Following toolbar
+   ========================================================= */
+
+/* Центрирование + небольшой вертикальный отступ */
+#editingToolbarModalBar[data-toolbar-style="following"] {
+	display: flex !important;
+	align-items: center !important;
+	height: 34px !important;
+}
+
+#editingToolbarModalBar[data-toolbar-style="following"] > button,
+#editingToolbarModalBar[data-toolbar-style="following"] > button.editingToolbarDropdownButton,
+#editingToolbarModalBar[data-toolbar-style="following"] > button[class*="editingToolbarCommandsubItem"] {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	align-self: center !important;
+	height: 28px !important;
+	min-height: 28px !important;
+	padding: 0 6px !important;
+	margin: 0 !important;
+	line-height: 1 !important;
+	box-sizing: border-box !important;
+	border-radius: 6px !important;
+}
+
+#editingToolbarModalBar[data-toolbar-style="following"] > button > svg,
+#editingToolbarModalBar[data-toolbar-style="following"] > button svg {
+	display: block !important;
+	margin: auto !important;
+	max-height: 20px !important;
+}
+
+/* Following toolbar — увеличить и выровнять стрелку dropdown */
+#editingToolbarModalBar[data-toolbar-style="following"] > button[class*="editingToolbarCommandsubItem"],
+#editingToolbarModalBar[data-toolbar-style="following"] > button.editingToolbarDropdownButton {
+	position: relative !important;
+	padding-right: 18px !important; /* место под стрелку */
+}
+
+#editingToolbarModalBar[data-toolbar-style="following"] > button[class*="editingToolbarCommandsubItem"]::after,
+#editingToolbarModalBar[data-toolbar-style="following"] > button.editingToolbarDropdownButton::after {
+	position: absolute !important;
+	right: 7px !important;
+	top: 50% !important;
+	transform: translateY(-50%) scale(2.5) !important;
+
+	margin: 0 !important;
+  padding: 0 !important;
+	line-height: 1 !important;
+	font-size: 8px !important;
+
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+
+	width: 6px !important;
+	height: 6px !important;
+	opacity: 1 !important;
+}
+
+#editingToolbarModalBar[data-toolbar-style="following"] {
+	transform: translateX(145px) !important;
+}

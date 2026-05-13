@@ -1,0 +1,116 @@
+/* =========================================================
+   20. UI CONTROLS / BUTTONS / MENUS / DROPDOWNS / TOGGLES
+   ========================================================= */
+
+/* =========================================================
+   BUTTONS / BASIC CONTROLS
+   ========================================================= */
+
+.theme-dark button,
+.theme-dark .setting-item-control button,
+.theme-dark .dropdown {
+  background-color: var(--interactive-normal) !important;
+  color: var(--dropdown-text) !important;
+  border: 1px solid var(--background-modifier-border) !important;
+}
+
+.theme-dark button:hover,
+.theme-dark .setting-item-control button:hover,
+.theme-dark .dropdown:hover {
+  background-color: var(--interactive-hover) !important;
+}
+
+.theme-dark .mod-cta,
+.theme-dark button.mod-cta {
+  background-color: var(--interactive-accent) !important;
+  color: var(--text-on-accent) !important;
+  border: 1px solid var(--interactive-accent) !important;
+}
+
+.theme-dark .mod-cta:hover,
+.theme-dark button.mod-cta:hover {
+  background-color: var(--interactive-accent-hover) !important;
+  border-color: var(--interactive-accent-hover) !important;
+}
+
+/* =========================================================
+   TOGGLES / CHECKBOXES
+   ========================================================= */
+
+.theme-dark input[type="checkbox"] {
+  accent-color: #6e9b78 !important;
+}
+
+.theme-dark .checkbox-container {
+  background-color: #9b2626 !important;
+  border: 1px solid #2c2c2c !important;
+}
+
+.theme-dark .checkbox-container.is-enabled {
+  background-color: #7dbe51 !important;
+  border: 1px solid #366615 !important;
+}
+
+/* =========================================================
+   MENUS / SUGGESTIONS / SELECTS
+   ========================================================= */
+
+.theme-dark .menu,
+.theme-dark .suggestion-container,
+.theme-dark .dropdown-menu,
+.theme-dark select,
+.theme-dark option {
+  background-color: #41413f !important;
+  color: #afaeaa !important;
+  border: 1px solid #725a5a !important;
+}
+
+.theme-dark .menu-item,
+.theme-dark .suggestion-item {
+  color: #afaeaa !important;
+}
+
+.theme-dark .menu-item:hover,
+.theme-dark .suggestion-item:hover,
+.theme-dark option:hover {
+  background-color: #5b5d61 !important;
+  color: #ee0000 !important;
+}
+
+.theme-dark .menu:focus,
+.theme-dark .menu:focus-within,
+.theme-dark .suggestion-container:focus,
+.theme-dark .suggestion-container:focus-within,
+.theme-dark .dropdown-menu:focus,
+.theme-dark .dropdown-menu:focus-within,
+.theme-dark select:focus,
+.theme-dark select:active,
+.theme-dark .dropdown:focus,
+.theme-dark .dropdown:active,
+.theme-dark .dropdown.is-active {
+  border: 1px solid #c2c5ca !important;
+  outline: 1px solid #c2c5ca !important;
+  box-shadow: 0 0 0 1px #b07a7a !important;
+}
+
+/* =========================================================
+   CUSTOM DROPDOWN ARROW
+   ========================================================= */
+
+.theme-dark select,
+.theme-dark .dropdown {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  padding-right: 1.8rem !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1.5 1.5L6 6L10.5 1.5' stroke='%232b1e1e' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-size: 0.7rem 0.50rem !important;
+  background-position: calc(100% - 0.80rem) 52% !important;
+}
+
+.theme-dark .dropdown svg,
+.theme-dark .dropdown .svg-icon,
+.theme-dark .dropdown .dropdown-icon,
+.theme-dark select svg {
+  display: none !important;
+}

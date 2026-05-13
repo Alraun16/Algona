@@ -1,0 +1,13 @@
+world
+creation
+arfant
+races
+nation
+character
+species
+region
+settlement
+state
+organization
+religion
+event

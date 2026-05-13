@@ -1,0 +1,136 @@
+body,
+.markdown-rendered,
+.markdown-preview-view,
+.cm-s-obsidian,
+.cm-editor,
+.cm-scroller,
+.workspace,
+.workspace-leaf-content,
+.view-content {
+  font-feature-settings: normal !important;
+  font-variant-ligatures: none !important;
+}
+
+/* Фон области заметки в режиме редактирования */
+.theme-dark .markdown-source-view.mod-cm6 .cm-scroller,
+.theme-dark .markdown-source-view.mod-cm6 .cm-contentContainer,
+.theme-dark .markdown-source-view.mod-cm6 .cm-gutters {
+  background-color: #222222 !important;
+}
+
+/*
+.theme-dark .markdown-reading-view,
+.theme-dark .markdown-preview-view {
+  background-color: #b8b8b8 !important;
+}
+*/
+
+#editingToolbarModalBar.top {
+  top: -6px !important;
+}
+
+#editingToolbarModalBar.top {
+  width: fit-content !important;
+  max-width: max-content !important;
+  margin: 8px auto 0 auto !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  padding: 0 8px !important;
+  left: unset !important;
+  transform: none !important;
+}
+
+/* Reading mode: светлая "страница" заметки */
+.theme-dark .markdown-reading-view,
+.theme-dark .markdown-preview-view {
+  background-color: #f4efe4 !important;
+  background-image: url("paper-texture.png") !important;
+  background-repeat: repeat !important;
+  background-size: 512px 512px !important;
+  color: #1f1a15 !important;
+}
+
+/* Весь обычный текст внутри Reading mode */
+.theme-dark .markdown-reading-view .markdown-rendered,
+.theme-dark .markdown-preview-view .markdown-rendered,
+.theme-dark .markdown-reading-view .cm-sizer,
+.theme-dark .markdown-preview-view .cm-sizer {
+  color: #1f1b18 !important;
+}
+
+/* Заголовки */
+.theme-dark .markdown-reading-view h1,
+.theme-dark .markdown-reading-view h2,
+.theme-dark .markdown-reading-view h3,
+.theme-dark .markdown-reading-view h4,
+.theme-dark .markdown-reading-view h5,
+.theme-dark .markdown-reading-view h6,
+.theme-dark .markdown-preview-view h1,
+.theme-dark .markdown-preview-view h2,
+.theme-dark .markdown-preview-view h3,
+.theme-dark .markdown-preview-view h4,
+.theme-dark .markdown-preview-view h5,
+.theme-dark .markdown-preview-view h6 {
+  color: #181512 !important;
+}
+
+/* Списки, обычные абзацы, жирный/курсив */
+.theme-dark .markdown-reading-view p,
+.theme-dark .markdown-reading-view li,
+.theme-dark .markdown-reading-view strong,
+.theme-dark .markdown-reading-view em,
+.theme-dark .markdown-preview-view p,
+.theme-dark .markdown-preview-view li,
+.theme-dark .markdown-preview-view strong,
+.theme-dark .markdown-preview-view em {
+  color: #1f1b18 !important;
+}
+
+/* Ссылки */
+.theme-dark .markdown-reading-view a,
+.theme-dark .markdown-preview-view a {
+  color: #6b4e2e !important;
+}
+
+/* Inline code */
+.theme-dark .markdown-reading-view code,
+.theme-dark .markdown-preview-view code {
+  background-color: #e7dfd2 !important;
+  color: #3a2d22 !important;
+}
+
+/* Code block */
+.theme-dark .markdown-reading-view pre,
+.theme-dark .markdown-preview-view pre {
+  background-color: #e1d9cc !important;
+  color: #241f1a !important;
+}
+
+/* Таблицы */
+.theme-dark .markdown-reading-view table,
+.theme-dark .markdown-preview-view table {
+  background-color: #f4f1ea !important;
+  color: #1f1b18 !important;
+}
+
+.theme-dark .markdown-reading-view th,
+.theme-dark .markdown-reading-view td,
+.theme-dark .markdown-preview-view th,
+.theme-dark .markdown-preview-view td {
+  border-color: #b8aa98 !important;
+}
+
+/* Callout */
+.theme-dark .markdown-reading-view .callout,
+.theme-dark .markdown-preview-view .callout {
+  background-color: #ebe4d8 !important;
+  color: #1f1b18 !important;
+}
+
+/* Блок цитаты */
+.theme-dark .markdown-reading-view blockquote,
+.theme-dark .markdown-preview-view blockquote {
+  border-left-color: #b09a7f !important;
+  color: #3a3028 !important;
+}

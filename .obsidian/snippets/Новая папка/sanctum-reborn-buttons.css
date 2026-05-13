@@ -1,0 +1,229 @@
+.theme-dark {
+  --interactive-normal: #afaeaa;
+  --interactive-hover: #c2c5ca;
+  --interactive-accent: #c79c4d;
+  --interactive-accent-hover: #ce9325;
+  --background-modifier-border: #5A6472;
+  --text-on-accent: #F7F9FB;
+  --dropdown-text: #2b1e1e;
+}
+
+/* Кнопки */
+.theme-dark button,
+.theme-dark .setting-item-control button,
+.theme-dark .dropdown {
+  background-color: var(--interactive-normal) !important;
+  color: var(--dropdown-text) !important;
+  border: 1px solid var(--background-modifier-border) !important;
+}
+
+.theme-dark button:hover,
+.theme-dark .setting-item-control button:hover,
+.theme-dark .dropdown:hover {
+  background-color: var(--interactive-hover) !important;
+}
+
+/* Accent / primary кнопки */
+.theme-dark .mod-cta,
+.theme-dark button.mod-cta {
+  background-color: var(--interactive-accent) !important;
+  color: var(--text-on-accent) !important;
+  border: 1px solid var(--interactive-accent) !important;
+}
+
+.theme-dark .mod-cta:hover,
+.theme-dark button.mod-cta:hover {
+  background-color: var(--interactive-accent-hover) !important;
+  border-color: var(--interactive-accent-hover) !important;
+}
+
+/* Слайдеры / toggles */
+.theme-dark input[type="checkbox"] {
+  accent-color: #6E9B78 !important;
+}
+
+/* Toggle OFF */
+.theme-dark .checkbox-container {
+  background-color: #9b2626 !important;
+  border: 1px solid #2c2c2c !important;
+}
+
+/* Toggle ON */
+.theme-dark .checkbox-container.is-enabled {
+  background-color: #7dbe51 !important;
+  border: 1px solid #366615 !important;
+}
+
+/* Меню и suggestion lists */
+.theme-dark .menu,
+.theme-dark .suggestion-container,
+.theme-dark .dropdown-menu,
+.theme-dark select,
+.theme-dark option {
+  background-color: #41413f !important;
+  color: #afaeaa !important;
+  border: 1px solid #725a5a !important;
+}
+
+.theme-dark .menu-item,
+.theme-dark .suggestion-item {
+  color: #afaeaa !important;
+}
+
+.theme-dark .menu-item:hover,
+.theme-dark .suggestion-item:hover,
+.theme-dark option:hover {
+  background-color: #5b5d61 !important;
+  color: #ee0000 !important;
+}
+
+/* Фокус / активное состояние списка и селекта */
+.theme-dark .menu:focus,
+.theme-dark .menu:focus-within,
+.theme-dark .suggestion-container:focus,
+.theme-dark .suggestion-container:focus-within,
+.theme-dark .dropdown-menu:focus,
+.theme-dark .dropdown-menu:focus-within,
+.theme-dark select:focus,
+.theme-dark select:active,
+.theme-dark .dropdown:focus,
+.theme-dark .dropdown:active {
+  border: 1px solid #c2c5ca !important;
+  outline: 1px solid #c2c5ca !important;
+  box-shadow: 0 0 0 1px #b07a7a !important;
+}
+
+/* Рамка dropdown при фокусе / активе */
+.theme-dark .dropdown:focus,
+.theme-dark .dropdown:active,
+.theme-dark .dropdown.is-active {
+  border: 1px solid #c2c5ca !important;
+  outline: 1px solid #c2c5ca !important;
+  box-shadow: 0 0 0 1px #b07a7a !important;
+}
+
+/* Убираем встроенную стрелку */
+.theme-dark select,
+.theme-dark .dropdown {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  background-image: none !important;
+  padding-right: 2rem !important;
+}
+
+/* Убираем возможные встроенные svg/mask-иконки */
+.theme-dark .dropdown svg,
+.theme-dark .dropdown .svg-icon,
+.theme-dark .dropdown .dropdown-icon,
+.theme-dark select svg {
+  display: none !important;
+}
+
+/* Контекст для псевдоэлемента */
+.theme-dark .setting-item-control:has(.dropdown),
+.theme-dark .dropdown {
+  position: relative;
+}
+
+/* Рисуем аккуратную стрелку через border */
+.theme-dark .setting-item-control:has(.dropdown)::after,
+.theme-dark .dropdown::after {
+  content: "";
+  position: absolute;
+  /*right: 1rem;*/
+  left: 0px;
+  top: 50%;
+  width: 0.38rem;
+  height: 0.38rem;
+  border-right: 2px solid var(--dropdown-text);
+  border-bottom: 2px solid var(--dropdown-text);
+  transform: translateY(-65%) rotate(45deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Reading mode: код-блок без внезапного горизонтального скролла */
+.markdown-reading-view pre,
+.markdown-preview-view pre {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  padding-right: 3rem !important; /* место под кнопку копирования */
+  position: relative !important;
+  box-sizing: border-box !important;
+}
+
+/* Не давать кнопке вылезать за правую границу */
+.markdown-reading-view pre button.copy-code-button,
+.markdown-preview-view pre button.copy-code-button,
+.markdown-reading-view .copy-code-button,
+.markdown-preview-view .copy-code-button {
+  right: 0.5rem !important;
+  top: 0.5rem !important;
+  left: auto !important;
+  transform: none !important;
+  position: absolute !important;
+  z-index: 3 !important;
+}
+
+/* На hover не менять геометрию блока */
+.markdown-reading-view pre:hover,
+.markdown-preview-view pre:hover {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+
+.markdown-reading-view pre code,
+.markdown-preview-view pre code {
+  white-space: pre !important;
+  display: block !important;
+}
+
+.markdown-reading-view .copy-code-button:hover,
+.markdown-preview-view .copy-code-button:hover {
+  right: 0.5rem !important;
+}
+
+.markdown-reading-view .copy-code-button,
+.markdown-preview-view .copy-code-button {
+  display: none !important;
+}
+
+.markdown-reading-view pre,
+.markdown-reading-view pre code,
+.markdown-preview-view pre,
+.markdown-preview-view pre code {
+  background-color: #d8d1c3 !important;
+}
+
+.markdown-reading-view pre code,
+.markdown-preview-view pre code {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.markdown-reading-view pre,
+.markdown-reading-view pre code,
+.markdown-reading-view .HyperMD-codeblock,
+.markdown-reading-view .markdown-rendered pre,
+.markdown-reading-view .markdown-rendered pre code,
+.markdown-reading-view .markdown-rendered .cm-line,
+.markdown-reading-view .markdown-rendered .cm-active,
+.markdown-preview-view pre,
+.markdown-preview-view pre code,
+.markdown-preview-view .HyperMD-codeblock,
+.markdown-preview-view .markdown-rendered pre,
+.markdown-preview-view .markdown-rendered pre code,
+.markdown-preview-view .markdown-rendered .cm-line,
+.markdown-preview-view .markdown-rendered .cm-active {
+  background: #d8d1c3 !important;
+  background-color: #d8d1c3 !important;
+  box-shadow: none !important;
+}
+
+.markdown-reading-view pre code,
+.markdown-preview-view pre code {
+  display: block !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}

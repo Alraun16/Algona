@@ -1,0 +1,59 @@
+# =========================
+# Obsidian local state
+# =========================
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache/
+.obsidian/tmp/
+.obsidian/logs/
+
+# Sync conflict files
+*.sync-conflict-*
+
+# Obsidian Sync / remote sync plugins with secrets
+.obsidian/sync.json
+.obsidian/plugins/obsidian-livesync/data.json
+.obsidian/plugins/remotely-save/data.json
+
+# Optional: ignore plugin binaries, keep configs
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json
+
+# =========================
+# Syncthing / SyncTrayzor
+# =========================
+.stfolder/
+.stversions/
+.stignore
+.syncthing*.tmp
+.syncthing.*.tmp
+
+# =========================
+# Trash
+# =========================
+.trash/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log

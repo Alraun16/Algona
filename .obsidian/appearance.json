@@ -1,0 +1,11 @@
+{
+  "enabledCssSnippets": [
+    "editing-mode-theme",
+    "foundation-theme",
+    "plugin-editing-toolbar",
+    "reading-mode-content",
+    "supercharged-links-gen",
+    "ui-controls"
+  ],
+  "cssTheme": "Sanctum reborn"
+}

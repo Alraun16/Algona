@@ -1,0 +1,991 @@
+{
+  "metadataKeyword": "heading",
+  "fileRegexBlacklist": [],
+  "folderBlacklist": [],
+  "enabledInReading": true,
+  "enabledReadingSettings": false,
+  "readingSettings": {
+    "enabledInEachNote": true,
+    "opacity": 20,
+    "position": "before",
+    "maxRecLevel": 6,
+    "decoratorMode": "orderd",
+    "orderedDelimiter": ".",
+    "orderedTrailingDelimiter": false,
+    "orderedCustomTrailingDelimiter": "",
+    "orderedLeadingDelimiter": false,
+    "orderedCustomLeadingDelimiter": "",
+    "orderedStyleType": "decimal",
+    "orderedCustomIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+    "orderedSpecifiedString": "#",
+    "orderedAllowZeroLevel": false,
+    "orderedBasedOnExisting": false,
+    "orderedAlwaysIgnore": false,
+    "orderedIgnoreSingle": false,
+    "orderedIgnoreMaximum": 6,
+    "independentSettings": {
+      "orderedRecLevel": 6,
+      "h1": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "spliceSettings": {
+      "delimiter": ".",
+      "trailingDelimiter": false,
+      "customTrailingDelimiter": "",
+      "leadingDelimiter": false,
+      "customLeadingDelimiter": "",
+      "h1": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "unorderedLevelHeadings": "H1 H2 H3 H4 H5 H6"
+  },
+  "readingRenderPolicy": "partial",
+  "enabledInPreview": true,
+  "enabledPreviewSettings": false,
+  "previewSettings": {
+    "enabledInEachNote": true,
+    "opacity": 20,
+    "position": "before",
+    "maxRecLevel": 6,
+    "decoratorMode": "orderd",
+    "orderedDelimiter": ".",
+    "orderedTrailingDelimiter": false,
+    "orderedCustomTrailingDelimiter": "",
+    "orderedLeadingDelimiter": false,
+    "orderedCustomLeadingDelimiter": "",
+    "orderedStyleType": "decimal",
+    "orderedCustomIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+    "orderedSpecifiedString": "#",
+    "orderedAllowZeroLevel": false,
+    "orderedBasedOnExisting": false,
+    "orderedAlwaysIgnore": false,
+    "orderedIgnoreSingle": false,
+    "orderedIgnoreMaximum": 6,
+    "independentSettings": {
+      "orderedRecLevel": 6,
+      "h1": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "spliceSettings": {
+      "delimiter": ".",
+      "trailingDelimiter": false,
+      "customTrailingDelimiter": "",
+      "leadingDelimiter": false,
+      "customLeadingDelimiter": "",
+      "h1": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "unorderedLevelHeadings": "H1 H2 H3 H4 H5 H6"
+  },
+  "enabledInSource": false,
+  "enabledSourceSettings": false,
+  "sourceSettings": {
+    "enabledInEachNote": true,
+    "opacity": 20,
+    "position": "before",
+    "maxRecLevel": 6,
+    "decoratorMode": "orderd",
+    "orderedDelimiter": ".",
+    "orderedTrailingDelimiter": false,
+    "orderedCustomTrailingDelimiter": "",
+    "orderedLeadingDelimiter": false,
+    "orderedCustomLeadingDelimiter": "",
+    "orderedStyleType": "decimal",
+    "orderedCustomIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+    "orderedSpecifiedString": "#",
+    "orderedAllowZeroLevel": false,
+    "orderedBasedOnExisting": false,
+    "orderedAlwaysIgnore": false,
+    "orderedIgnoreSingle": false,
+    "orderedIgnoreMaximum": 6,
+    "independentSettings": {
+      "orderedRecLevel": 6,
+      "h1": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "spliceSettings": {
+      "delimiter": ".",
+      "trailingDelimiter": false,
+      "customTrailingDelimiter": "",
+      "leadingDelimiter": false,
+      "customLeadingDelimiter": "",
+      "h1": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "unorderedLevelHeadings": "H1 H2 H3 H4 H5 H6"
+  },
+  "sourceHideNumberSigns": false,
+  "useGutter": false,
+  "gutterPosition": "before-line-numbers",
+  "gutterFontSize": 15,
+  "enabledGutterSettings": false,
+  "gutterSettings": {
+    "enabledInEachNote": true,
+    "opacity": 80,
+    "position": "before",
+    "maxRecLevel": 6,
+    "decoratorMode": "orderd",
+    "orderedDelimiter": ".",
+    "orderedTrailingDelimiter": false,
+    "orderedCustomTrailingDelimiter": "",
+    "orderedLeadingDelimiter": false,
+    "orderedCustomLeadingDelimiter": "",
+    "orderedStyleType": "decimal",
+    "orderedCustomIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+    "orderedSpecifiedString": "#",
+    "orderedAllowZeroLevel": false,
+    "orderedBasedOnExisting": false,
+    "orderedAlwaysIgnore": false,
+    "orderedIgnoreSingle": false,
+    "orderedIgnoreMaximum": 6,
+    "independentSettings": {
+      "orderedRecLevel": 6,
+      "h1": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "spliceSettings": {
+      "delimiter": ".",
+      "trailingDelimiter": false,
+      "customTrailingDelimiter": "",
+      "leadingDelimiter": false,
+      "customLeadingDelimiter": "",
+      "h1": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "unorderedLevelHeadings": "H1 H2 H3 H4 H5 H6"
+  },
+  "enabledInOutline": false,
+  "enabledOutlineSettings": false,
+  "outlineSettings": {
+    "enabledInEachNote": true,
+    "opacity": 20,
+    "position": "before",
+    "maxRecLevel": 6,
+    "decoratorMode": "orderd",
+    "orderedDelimiter": ".",
+    "orderedTrailingDelimiter": false,
+    "orderedCustomTrailingDelimiter": "",
+    "orderedLeadingDelimiter": false,
+    "orderedCustomLeadingDelimiter": "",
+    "orderedStyleType": "decimal",
+    "orderedCustomIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+    "orderedSpecifiedString": "#",
+    "orderedAllowZeroLevel": false,
+    "orderedBasedOnExisting": false,
+    "orderedAlwaysIgnore": false,
+    "orderedIgnoreSingle": false,
+    "orderedIgnoreMaximum": 6,
+    "independentSettings": {
+      "orderedRecLevel": 6,
+      "h1": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "spliceSettings": {
+      "delimiter": ".",
+      "trailingDelimiter": false,
+      "customTrailingDelimiter": "",
+      "leadingDelimiter": false,
+      "customLeadingDelimiter": "",
+      "h1": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "unorderedLevelHeadings": "H1 H2 H3 H4 H5 H6"
+  },
+  "enabledInQuietOutline": false,
+  "enabledQuietOutlineSettings": false,
+  "quietOutlineSettings": {
+    "enabledInEachNote": true,
+    "opacity": 20,
+    "position": "before",
+    "maxRecLevel": 6,
+    "decoratorMode": "orderd",
+    "orderedDelimiter": ".",
+    "orderedTrailingDelimiter": false,
+    "orderedCustomTrailingDelimiter": "",
+    "orderedLeadingDelimiter": false,
+    "orderedCustomLeadingDelimiter": "",
+    "orderedStyleType": "decimal",
+    "orderedCustomIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+    "orderedSpecifiedString": "#",
+    "orderedAllowZeroLevel": false,
+    "orderedBasedOnExisting": false,
+    "orderedAlwaysIgnore": false,
+    "orderedIgnoreSingle": false,
+    "orderedIgnoreMaximum": 6,
+    "independentSettings": {
+      "orderedRecLevel": 6,
+      "h1": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "spliceSettings": {
+      "delimiter": ".",
+      "trailingDelimiter": false,
+      "customTrailingDelimiter": "",
+      "leadingDelimiter": false,
+      "customLeadingDelimiter": "",
+      "h1": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "unorderedLevelHeadings": "H1 H2 H3 H4 H5 H6"
+  },
+  "enabledInFileExplorer": false,
+  "enabledFileExplorerSettings": false,
+  "fileExplorerSettings": {
+    "enabledInEachNote": true,
+    "opacity": 20,
+    "position": "before",
+    "maxRecLevel": 6,
+    "decoratorMode": "orderd",
+    "orderedDelimiter": ".",
+    "orderedTrailingDelimiter": false,
+    "orderedCustomTrailingDelimiter": "",
+    "orderedLeadingDelimiter": false,
+    "orderedCustomLeadingDelimiter": "",
+    "orderedStyleType": "decimal",
+    "orderedCustomIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+    "orderedSpecifiedString": "#",
+    "orderedAllowZeroLevel": false,
+    "orderedBasedOnExisting": false,
+    "orderedAlwaysIgnore": false,
+    "orderedIgnoreSingle": false,
+    "orderedIgnoreMaximum": 6,
+    "independentSettings": {
+      "orderedRecLevel": 6,
+      "h1": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "spliceSettings": {
+      "delimiter": ".",
+      "trailingDelimiter": false,
+      "customTrailingDelimiter": "",
+      "leadingDelimiter": false,
+      "customLeadingDelimiter": "",
+      "h1": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "unorderedLevelHeadings": "H1 H2 H3 H4 H5 H6"
+  },
+  "commonSettings": {
+    "enabledInEachNote": true,
+    "opacity": 30,
+    "position": "before",
+    "maxRecLevel": 1,
+    "decoratorMode": "orderd",
+    "orderedDelimiter": ".",
+    "orderedTrailingDelimiter": true,
+    "orderedCustomTrailingDelimiter": "",
+    "orderedLeadingDelimiter": false,
+    "orderedCustomLeadingDelimiter": "",
+    "orderedStyleType": "upperRoman",
+    "orderedCustomIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+    "orderedSpecifiedString": "#",
+    "orderedAllowZeroLevel": false,
+    "orderedBasedOnExisting": false,
+    "orderedAlwaysIgnore": false,
+    "orderedIgnoreSingle": true,
+    "orderedIgnoreMaximum": 6,
+    "independentSettings": {
+      "orderedRecLevel": 6,
+      "h1": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "delimiter": ".",
+        "trailingDelimiter": false,
+        "customTrailingDelimiter": "",
+        "leadingDelimiter": false,
+        "customLeadingDelimiter": "",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "spliceSettings": {
+      "delimiter": ".",
+      "trailingDelimiter": false,
+      "customTrailingDelimiter": "",
+      "leadingDelimiter": false,
+      "customLeadingDelimiter": "",
+      "h1": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h2": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h3": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h4": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h5": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      },
+      "h6": {
+        "styleType": "decimal",
+        "customIdents": "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ",
+        "specifiedString": "#"
+      }
+    },
+    "unorderedLevelHeadings": "H1 H2 H3 H4 H5 H6"
+  }
+}

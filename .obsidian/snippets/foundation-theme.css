@@ -1,0 +1,86 @@
+/* =========================================================
+   00. FOUNDATION / GLOBAL RESET / APP SURFACES
+   ========================================================= */
+
+
+/* Отключение лигатур и feature substitutions */
+body,
+.markdown-rendered,
+.markdown-preview-view,
+.cm-s-obsidian,
+.cm-editor,
+.cm-scroller,
+.workspace,
+.workspace-leaf-content,
+.view-content {
+  font-feature-settings: normal !important;
+  font-variant-ligatures: none !important;
+}
+
+/* Базовые переменные интерфейса */
+.theme-dark {
+  --app-background: #181818;
+  --app-divider: #393939;
+  --app-divider-hover: #2a2a2a;
+  --app-divider-focus: #303030;
+}
+
+/* =========================================================
+   GLOBAL INTERFACE BACKGROUND
+   ========================================================= */
+
+.theme-dark .workspace,
+.theme-dark .workspace-split,
+.theme-dark .workspace-tabs,
+.theme-dark .workspace-tab-container,
+.theme-dark .workspace-tab-header-container,
+.theme-dark .workspace-ribbon,
+.theme-dark .sidebar-toggle-button,
+.theme-dark .mod-root,
+.theme-dark .app-container,
+.theme-dark .app-inner,
+.theme-dark .horizontal-main-container,
+.theme-dark .workspace-leaf,
+.theme-dark .workspace-leaf-content {
+  background-color: var(--app-background) !important;
+}
+
+/* =========================================================
+   WORKSPACE MAX-WIDTH
+   ========================================================= */
+
+.markdown-source-view.mod-cm6 .cm-sizer,
+.markdown-reading-view .markdown-preview-sizer {
+  max-width: 1000px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* =========================================================
+   PANE / WINDOW DIVIDERS
+   ========================================================= */
+
+/* Вертикальные / горизонтальные разделители pane */
+.theme-dark .workspace-leaf-resize-handle {
+  background-color: var(--app-divider) !important;
+}
+
+/* Границы контейнеров, если тема рисует их через border */
+.theme-dark .workspace-split.mod-left-split,
+.theme-dark .workspace-split.mod-right-split,
+.theme-dark .workspace-tabs .workspace-tab-header-container,
+.theme-dark .workspace-ribbon.mod-left,
+.theme-dark .workspace-ribbon.mod-right {
+  border-color: var(--app-divider) !important;
+}
+
+::selection {
+  background: rgba(0, 120, 215, 0.3) !important;
+  color: inherit !important;
+}
+
+::-moz-selection {
+  background: rgba(0, 120, 215, 0.3) !important;
+  color: inherit !important;
+}
