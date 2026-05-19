@@ -61,6 +61,34 @@
           },
           "fileExistsMode": "Increment the file name",
           "setFileExistsBehavior": false
+        },
+        {
+          "id": "64eda582-ba17-42d0-ba23-40a99b7aed65",
+          "name": "Meta",
+          "type": "Template",
+          "command": false,
+          "templatePath": "_Project Core/Templates/Meta Note Template.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE:title}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": true,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
         }
       ],
       "collapsed": false

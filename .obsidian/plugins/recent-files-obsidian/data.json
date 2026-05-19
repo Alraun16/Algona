@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "00_Быстрый вход в Альгону",
+      "path": "_Project Core/Navigation/00_Быстрый вход в Альгону.md"
+    },
+    {
+      "basename": "Воркский словарь",
+      "path": "Альгона/Словари/Воркский словарь.md"
+    },
+    {
+      "basename": "Раан'Кхорский словарь",
+      "path": "Альгона/Словари/Раан'Кхорский словарь.md"
+    },
+    {
+      "basename": "Арганский словарь",
+      "path": "Альгона/Словари/Арганский словарь.md"
+    },
+    {
+      "basename": "Lore Note Template",
+      "path": "_Project Core/Templates/Lore Note Template.md"
+    },
+    {
+      "basename": "Альгона",
+      "path": "Альгона/Альгона.md"
+    },
+    {
+      "basename": "Два материка",
+      "path": "Два материка.md"
+    },
+    {
+      "basename": "Meta Note Template",
+      "path": "_Project Core/Templates/Meta Note Template.md"
+    },
+    {
+      "basename": "Dictionary Template",
+      "path": "_Project Core/Templates/Dictionary Template.md"
+    },
+    {
+      "basename": "type.values",
+      "path": "_Project Core/Property Values/type.values.md"
+    },
+    {
       "basename": "Вейл'арис",
       "path": "Вейл'арис/Вейл'арис.md"
     },
     {
       "basename": "Арфантский словарь",
       "path": "Альгона/Словари/Арфантский словарь.md"
-    },
-    {
-      "basename": "Альгона",
-      "path": "Альгона/Альгона.md"
     },
     {
       "basename": "Ун'аргский словарь",
@@ -39,30 +75,6 @@
     {
       "basename": "Сел'аура",
       "path": "Аран'алас/Сел'аура/Сел'аура.md"
-    },
-    {
-      "basename": "Dictionary Template",
-      "path": "_Project Core/Templates/Dictionary Template.md"
-    },
-    {
-      "basename": "Lore Note Template",
-      "path": "_Project Core/Templates/Lore Note Template.md"
-    },
-    {
-      "basename": "Воркский словарь",
-      "path": "Альгона/Словари/Воркский словарь.md"
-    },
-    {
-      "basename": "Раан'Кхорский словарь",
-      "path": "Альгона/Словари/Раан'Кхорский словарь.md"
-    },
-    {
-      "basename": "Арганский словарь",
-      "path": "Альгона/Словари/Арганский словарь.md"
-    },
-    {
-      "basename": "type.values",
-      "path": "_Project Core/Property Values/type.values.md"
     },
     {
       "basename": "Вирс'ахт",
