@@ -1,7 +1,7 @@
 ---
-title: "Арганский словарь"
-id: argan_dictionary
-type: world
+title: Cловарь Арганов
+id: dictionary_argan
+type: dictionary
 status: in_progress
 created_at: 2026-04-29 23:31
 updated_at: 2026-04-29 23:31
