@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Нестандартные формы склонений",
-      "path": "Альгона/Словари/Нестандартные формы склонений.md"
+      "basename": "09_Рабочие правила базы",
+      "path": "_Project Core/Navigation/09_Рабочие правила базы.md"
+    },
+    {
+      "basename": "07_Метафизика и законы мира",
+      "path": "_Project Core/Navigation/07_Метафизика и законы мира.md"
+    },
+    {
+      "basename": "06_Геополитическая сводка",
+      "path": "_Project Core/Navigation/06_Геополитическая сводка.md"
+    },
+    {
+      "basename": "02_Опорные сущности мира",
+      "path": "_Project Core/Navigation/02_Опорные сущности мира.md"
+    },
+    {
+      "basename": "00_Быстрый вход в Альгону",
+      "path": "_Project Core/Navigation/00_Быстрый вход в Альгону.md"
+    },
+    {
+      "basename": "05_Исторический каркас",
+      "path": "_Project Core/Navigation/05_Исторический каркас.md"
     },
     {
       "basename": "Cловарь Арганов",
@@ -25,32 +45,12 @@
       "path": "Альгона/Словари/Словарь Арфантов.md"
     },
     {
+      "basename": "Нестандартные формы склонений",
+      "path": "Альгона/Словари/Нестандартные формы склонений.md"
+    },
+    {
       "basename": "type.values",
       "path": "_Project Core/Property Values/type.values.md"
-    },
-    {
-      "basename": "09_Рабочие правила базы",
-      "path": "_Project Core/Navigation/09_Рабочие правила базы.md"
-    },
-    {
-      "basename": "02_Опорные сущности мира",
-      "path": "_Project Core/Navigation/02_Опорные сущности мира.md"
-    },
-    {
-      "basename": "00_Быстрый вход в Альгону",
-      "path": "_Project Core/Navigation/00_Быстрый вход в Альгону.md"
-    },
-    {
-      "basename": "06_Геополитическая сводка",
-      "path": "_Project Core/Navigation/06_Геополитическая сводка.md"
-    },
-    {
-      "basename": "07_Метафизика и законы мира",
-      "path": "_Project Core/Navigation/07_Метафизика и законы мира.md"
-    },
-    {
-      "basename": "05_Исторический каркас",
-      "path": "_Project Core/Navigation/05_Исторический каркас.md"
     },
     {
       "basename": "Lore Note Template",
