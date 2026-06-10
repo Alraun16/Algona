@@ -5,7 +5,10 @@
     "plugin-editing-toolbar",
     "reading-mode-content",
     "supercharged-links-gen",
-    "ui-controls"
+    "ui-controls",
+    "chronos-algona",
+    "date-lists",
+    "chronos-fix"
   ],
   "cssTheme": "Sanctum reborn"
 }

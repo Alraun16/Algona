@@ -1,7 +1,7 @@
 {
   "lastVersion": "4.0.8",
-  "aestheticStyle": "custom",
-  "positionStyle": "following",
+  "aestheticStyle": "glass",
+  "positionStyle": "top",
   "menuCommands": [
     {
       "id": "editing-toolbar:editor-undo",
@@ -1114,7 +1114,7 @@
   "mobileCommands": [],
   "enableMultipleConfig": true,
   "enableTopToolbar": true,
-  "enableFollowingToolbar": true,
+  "enableFollowingToolbar": false,
   "enableFixedToolbar": false,
   "appendMethod": "body",
   "shouldShowMenuOnSelect": false,
@@ -1209,9 +1209,9 @@
       "aestheticStyle": "default"
     }
   },
-  "toolbarBackgroundColor": "#444444",
-  "toolbarIconColor": "#2D2D2D",
-  "toolbarIconSize": 20,
+  "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
+  "toolbarIconColor": "var(--text-normal)",
+  "toolbarIconSize": 18,
   "useCurrentLineForRegex": false,
   "ai": {
     "enabled": false,

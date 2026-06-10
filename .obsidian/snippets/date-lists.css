@@ -1,0 +1,95 @@
+/* Альгона: компактный хронологический список */
+
+.algona-chrono {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+
+  --algona-icon-star: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M12 2.5 14.1 9.3 21 12 14.1 14.7 12 21.5 9.9 14.7 3 12 9.9 9.3 12 2.5Z'/%3E%3C/svg%3E");
+
+--algona-icon-house: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' fill-rule='evenodd' d='M5 22H19C18.2 16.8 18 11.8 18 8H20V4H17V7H14V4H10V7H7V4H4V8H6C6 11.8 5.8 16.8 5 22ZM9 22V16.8C9 14.7 15 14.7 15 16.8V22Z'/%3E%3C/svg%3E");
+  
+--algona-icon-swords: url("data:image/svg+xml,%3Csvg viewBox='0 -1.6 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='black'%3E%3Cg transform='rotate(45 12 12)'%3E%3Cpath d='M11 2h2l.6 10-1.6 2-1.6-2L11 2Z'/%3E%3Cpath d='M7.5 13.8h9v2h-9v-2Z'/%3E%3Cpath d='M10.8 15.2h2.4v5h-2.4v-5Z'/%3E%3Cpath d='M9.5 20h5v2h-5v-2Z'/%3E%3C/g%3E%3Cg transform='rotate(-45 12 12)'%3E%3Cpath d='M11 2h2l.6 10-1.6 2-1.6-2L11 2Z'/%3E%3Cpath d='M7.5 13.8h9v2h-9v-2Z'/%3E%3Cpath d='M10.8 15.2h2.4v5h-2.4v-5Z'/%3E%3Cpath d='M9.5 20h5v2h-5v-2Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.algona-chrono li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.25em 1fr;
+  column-gap: 0.18em;
+  align-items: baseline;
+margin: 0 0 0.12em 0;
+  padding: 0.16em 0 0.22em 0;
+}
+
+/* Разделитель: затухает в обе стороны, максимум до 60% ширины */
+.algona-chrono li::after {
+  content: "";
+  position: absolute;
+  left: 1.45em;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  transform: translateY(1.5px);
+  background: linear-gradient(
+    to right,
+    rgba(160, 160, 160, 0) 0%,
+    rgba(160, 160, 160, 0.274) 10%,
+    rgba(160, 160, 160, 0.274) 90%,
+    rgba(160, 160, 160, 0) 100%
+  );
+}
+
+/* Базовый значок */
+.algona-chrono li::before {
+  content: "";
+  width: 1.15em;
+  height: 1.15em;
+  justify-self: center;
+  align-self: baseline;
+  transform: translateY(0.12em);
+  background-color: var(--text-muted);
+  -webkit-mask: var(--algona-icon-star) center / contain no-repeat;
+  mask: var(--algona-icon-star) center / contain no-repeat;
+}
+
+.algona-chrono .settlement::before {
+  width: 1.05em;
+  height: 1.05em;
+  background-color: #c47a2c;
+  -webkit-mask: var(--algona-icon-house) center / contain no-repeat;
+  mask: var(--algona-icon-house) center / contain no-repeat;
+}
+
+.algona-chrono .date {
+  white-space: nowrap;
+}
+
+.algona-chrono .period .year {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Основания / города / государства */
+.algona-chrono .settlement::before {
+  width: 1.05em;
+  height: 1.05em;
+  background-color: #c47a2c;
+  -webkit-mask: var(--algona-icon-house) center / contain no-repeat;
+  mask: var(--algona-icon-house) center / contain no-repeat;
+}
+
+.algona-chrono .settlement .date {
+  color: #c47a2c;
+}
+
+/* Войны / восстания / крупные конфликты */
+.algona-chrono .war::before {
+  background-color: #b34848;
+  -webkit-mask: var(--algona-icon-swords) center / contain no-repeat;
+  mask: var(--algona-icon-swords) center / contain no-repeat;
+}
+
+.algona-chrono .war .date {
+  color: #b34848;
+}

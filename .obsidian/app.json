@@ -2,5 +2,6 @@
   "spellcheck": false,
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "autoPairMarkdown": false
 }

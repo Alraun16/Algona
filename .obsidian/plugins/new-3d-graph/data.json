@@ -1,7 +1,13 @@
 {
   "searchQuery": "",
   "showNeighboringNodes": true,
-  "filters": [],
+  "filters": [
+    {
+      "type": "tag",
+      "value": "",
+      "inverted": false
+    }
+  ],
   "showAttachments": false,
   "hideOrphans": false,
   "showTags": true,

@@ -7,7 +7,7 @@ canon_level:
 
 # Dashboard
 
-Незавершённые з
+Незавершённые заметки
 ```dataview
 TABLE type, canon_level, updated_at
 FROM "Альгона"
@@ -18,7 +18,7 @@ SORT updated_at DESC
 ```dataview
 TABLE type, status, canon_level
 FROM "Альгона"
-WHERE !type OR !status
+WHERE !type OR !status OR (contains(file.frontmatter, "canon_level") AND !canon_level)
 SORT file.name ASC
 ```
 

@@ -1,0 +1,99 @@
+/* ============================================================
+   Chronos Algona — custom timeline styling
+   ============================================================ */
+
+
+/* Chronos: сделать маркеры = полностью статичными для мыши */
+
+.chronos-timeline-container .vis-custom-time,
+.chronos-timeline-container .vis-custom-time *,
+.chronos-timeline-container .vis-custom-time-marker,
+.chronos-timeline-container .vis-custom-time-marker * {
+	pointer-events: none !important;
+	cursor: default !important;
+}
+
+
+/* Chronos: динамические опорные линии Альгоны */
+
+.chronos-timeline-container .chronos-algona-guide {
+	position: absolute;
+	pointer-events: none;
+	z-index: 1;
+}
+
+.chronos-timeline-container .chronos-algona-guide-line {
+	position: absolute;
+	left: -2px;
+	top: 0;
+	width: 0;
+	height: 100%;
+	border-left: 2px solid var(--interactive-accent);
+}
+
+.chronos-timeline-container .chronos-algona-guide-line.is-range {
+	border-left: 1px dashed var(--text-muted);
+	opacity: 0.65;
+}
+
+.chronos-timeline-container .chronos-algona-guide-dot {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: var(--interactive-accent);
+	transform: translate(-50%, 50%);
+}
+
+.chronos-timeline-container .chronos-algona-guide-dot.is-range {
+	background-color: var(--text-muted);
+	opacity: 0.8;
+}
+
+
+/* Chronos: фон всего таймлайна */
+
+.chronos-timeline-container .vis-timeline,
+.chronos-timeline-container .vis-panel,
+.chronos-timeline-container .vis-background,
+.chronos-timeline-container .vis-foreground,
+.chronos-timeline-container .vis-labelset .vis-label {
+	background-color: #181818 !important;
+}
+
+
+/* Chronos: цвета заголовков групп слева
+   Порядок дорожек сверху вниз:
+   1. Основания
+   2. Войны
+   3. События
+*/
+
+.chronos-timeline-container
+	.vis-panel.vis-left
+	.vis-labelset
+	.vis-label:nth-child(1)
+	.vis-inner {
+	color: var(--color-orange) !important;
+	font-weight: 600;
+}
+
+.chronos-timeline-container
+	.vis-panel.vis-left
+	.vis-labelset
+	.vis-label:nth-child(2)
+	.vis-inner {
+	color: var(--color-red) !important;
+	font-weight: 600;
+}
+
+.chronos-timeline-container
+	.vis-panel.vis-left
+	.vis-labelset
+	.vis-label:nth-child(3)
+	.vis-inner {
+	color: var(--text-normal) !important;
+	font-weight: 600;
+}
