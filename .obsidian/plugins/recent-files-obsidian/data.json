@@ -1,12 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "Изначальный",
+      "path": "Альгона/Устройство мира/Арфанты/Изначальный.md"
+    },
+    {
+      "basename": "Мироздание",
+      "path": "Альгона/Устройство мира/Арфанты/Мироздание.md"
+    },
+    {
+      "basename": "Арфанты",
+      "path": "Альгона/Устройство мира/Арфанты/Арфанты.md"
+    },
+    {
+      "basename": "type.values",
+      "path": "_Project Core/Property Values/type.values.md"
+    },
+    {
+      "basename": "00_Быстрый вход в Альгону",
+      "path": "_Project Core/Navigation/00_Быстрый вход в Альгону.md"
+    },
+    {
+      "basename": "09_Рабочие правила базы",
+      "path": "_Project Core/Navigation/09_Рабочие правила базы.md"
+    },
+    {
+      "basename": "Вейл'ор",
+      "path": "Вейл'арис/Вейл'ор/Вейл'ор.md"
+    },
+    {
+      "basename": "status.values",
+      "path": "_Project Core/Property Values/status.values.md"
+    },
+    {
+      "basename": "canon_level.values",
+      "path": "_Project Core/Property Values/canon_level.values.md"
+    },
+    {
+      "basename": "Property Values",
+      "path": "_Project Core/Property Values/Property Values.md"
+    },
+    {
       "basename": "Краткая хронология Альгоны",
       "path": "Альгона/История/Краткая хронология Альгоны.md"
     },
     {
+      "basename": "World Schema",
+      "path": "_Project Core/World Schema.md"
+    },
+    {
+      "basename": "02_Как разрабатывать связку миров, Арфантов и магию",
+      "path": "_Project Core/Development Plans/02_Как разрабатывать связку миров, Арфантов и магию.md"
+    },
+    {
+      "basename": "lore_all-being",
+      "path": "_Assets/Images/Lore Arts/lore_all-being.png"
+    },
+    {
+      "basename": "lore_primordial",
+      "path": "_Assets/Images/Lore Arts/lore_primordial.png"
+    },
+    {
+      "basename": "Lore Note Template",
+      "path": "_Project Core/Templates/Lore Note Template.md"
+    },
+    {
       "basename": "Dashboard",
       "path": "_Project Core/Dashboard.md"
+    },
+    {
+      "basename": "01_Как разрабатывать канон и базу",
+      "path": "_Project Core/Development Plans/01_Как разрабатывать канон и базу.md"
+    },
+    {
+      "basename": "00_Что предстоит разработать",
+      "path": "_Project Core/Development Plans/00_Что предстоит разработать.md"
+    },
+    {
+      "basename": "09_Как разрабатывать языки, символику, визуальный стиль, персонажей и сюжеты",
+      "path": "_Project Core/Development Plans/09_Как разрабатывать языки, символику, визуальный стиль, персонажей и сюжеты.md"
+    },
+    {
+      "basename": "Отложенные вопросы по лору",
+      "path": "_Project Core/Backlog/Отложенные вопросы по лору.md"
     },
     {
       "basename": "date-row",
@@ -19,14 +95,6 @@
     {
       "basename": "01_Карта навигации по базе",
       "path": "_Project Core/Navigation/01_Карта навигации по базе.md"
-    },
-    {
-      "basename": "World Schema",
-      "path": "_Project Core/World Schema.md"
-    },
-    {
-      "basename": "Арфанты",
-      "path": "Альгона/Устройство мира/Арфанты/Арфанты.md"
     },
     {
       "basename": "Нестандартные формы склонений",
@@ -53,10 +121,6 @@
       "path": "_Project Core/Navigation/07_Метафизика и законы мира.md"
     },
     {
-      "basename": "09_Рабочие правила базы",
-      "path": "_Project Core/Navigation/09_Рабочие правила базы.md"
-    },
-    {
       "basename": "Словарь Ун'аргов",
       "path": "Альгона/Словари/Словарь Ун'аргов.md"
     },
@@ -77,28 +141,12 @@
       "path": "Альгона/Словари/Cловарь Арганов.md"
     },
     {
-      "basename": "00_Быстрый вход в Альгону",
-      "path": "_Project Core/Navigation/00_Быстрый вход в Альгону.md"
-    },
-    {
-      "basename": "Изначальный",
-      "path": "Альгона/Устройство мира/Арфанты/Изначальный.md"
-    },
-    {
       "basename": "06_Геополитическая сводка",
       "path": "_Project Core/Navigation/06_Геополитическая сводка.md"
     },
     {
       "basename": "02_Опорные сущности мира",
       "path": "_Project Core/Navigation/02_Опорные сущности мира.md"
-    },
-    {
-      "basename": "type.values",
-      "path": "_Project Core/Property Values/type.values.md"
-    },
-    {
-      "basename": "Lore Note Template",
-      "path": "_Project Core/Templates/Lore Note Template.md"
     },
     {
       "basename": "Meta Note Template",
@@ -111,10 +159,6 @@
     {
       "basename": "Вейл'арис",
       "path": "Вейл'арис/Вейл'арис.md"
-    },
-    {
-      "basename": "Вейл'ор",
-      "path": "Вейл'арис/Вейл'ор/Вейл'ор.md"
     },
     {
       "basename": "Эйр'тар",
@@ -131,18 +175,6 @@
     {
       "basename": "Аран'алас",
       "path": "Аран'алас/Аран'алас.md"
-    },
-    {
-      "basename": "Property Values",
-      "path": "_Project Core/Property Values/Property Values.md"
-    },
-    {
-      "basename": "status.values",
-      "path": "_Project Core/Property Values/status.values.md"
-    },
-    {
-      "basename": "canon_level.values",
-      "path": "_Project Core/Property Values/canon_level.values.md"
     }
   ],
   "omittedPaths": [],

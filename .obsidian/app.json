@@ -3,5 +3,6 @@
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "attachmentFolderPath": "_Assets/_Inbox"
 }

@@ -1,0 +1,93 @@
+/* =========================================================
+   Отключить затемнение / снижение контраста ВСЕХ картинок
+   ========================================================= */
+
+.markdown-rendered img,
+.markdown-preview-view img,
+.markdown-reading-view img,
+.markdown-source-view.mod-cm6 img,
+.markdown-rendered .image-embed,
+.markdown-preview-view .image-embed,
+.markdown-reading-view .image-embed,
+.markdown-source-view.mod-cm6 .image-embed,
+.markdown-rendered .internal-embed.image-embed,
+.markdown-preview-view .internal-embed.image-embed,
+.markdown-reading-view .internal-embed.image-embed,
+.markdown-source-view.mod-cm6 .internal-embed.image-embed,
+.markdown-source-view.mod-cm6 .cm-embed-block {
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  mix-blend-mode: normal !important;
+  transition: none !important;
+}
+
+.markdown-rendered img:hover,
+.markdown-preview-view img:hover,
+.markdown-reading-view img:hover,
+.markdown-source-view.mod-cm6 img:hover,
+.markdown-rendered .image-embed:hover,
+.markdown-preview-view .image-embed:hover,
+.markdown-reading-view .image-embed:hover,
+.markdown-source-view.mod-cm6 .image-embed:hover,
+.markdown-rendered .internal-embed.image-embed:hover,
+.markdown-preview-view .internal-embed.image-embed:hover,
+.markdown-reading-view .internal-embed.image-embed:hover,
+.markdown-source-view.mod-cm6 .internal-embed.image-embed:hover,
+.markdown-source-view.mod-cm6 .cm-embed-block:hover {
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+
+/* =========================================================
+   Художественное изображение по маркеру lore-art
+   ========================================================= */
+
+.markdown-rendered img[alt*="lore-art"],
+.markdown-preview-view img[alt*="lore-art"],
+.markdown-reading-view img[alt*="lore-art"],
+.markdown-source-view.mod-cm6 img[alt*="lore-art"],
+
+.markdown-rendered .image-embed[alt*="lore-art"] img,
+.markdown-preview-view .image-embed[alt*="lore-art"] img,
+.markdown-reading-view .image-embed[alt*="lore-art"] img,
+.markdown-source-view.mod-cm6 .image-embed[alt*="lore-art"] img,
+
+.markdown-rendered .internal-embed[alt*="lore-art"] img,
+.markdown-preview-view .internal-embed[alt*="lore-art"] img,
+.markdown-reading-view .internal-embed[alt*="lore-art"] img,
+.markdown-source-view.mod-cm6 .internal-embed[alt*="lore-art"] img {
+  border-radius: 10px !important;
+
+  -webkit-mask-image:
+    linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%),
+    linear-gradient(to bottom, transparent 0%, black 5%, black 95%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+
+  mask-image:
+    linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%),
+    linear-gradient(to bottom, transparent 0%, black 5%, black 95%, transparent 100%);
+  mask-composite: intersect;
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* Сдвиг всех художественных изображений lore-art влево без поломки mask */
+.markdown-rendered .image-embed[alt*="lore-art"],
+.markdown-preview-view .image-embed[alt*="lore-art"],
+.markdown-reading-view .image-embed[alt*="lore-art"],
+.markdown-source-view.mod-cm6 .image-embed[alt*="lore-art"],
+.markdown-rendered .internal-embed[alt*="lore-art"],
+.markdown-preview-view .internal-embed[alt*="lore-art"],
+.markdown-reading-view .internal-embed[alt*="lore-art"],
+.markdown-source-view.mod-cm6 .internal-embed[alt*="lore-art"] {
+  margin-left: -8px !important;
+  margin-right: 8px !important;
+}
